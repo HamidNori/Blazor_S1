@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zVDdbKxgT84=",
+  "success": true,
+  "projectFilePath": "/home/hamme/Documents/GitHub/Blazor_S1/Blazor_S1.csproj",
+  "expectedPackageFiles": [
+    "/home/hamme/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.4/microsoft.aspnetcore.app.ref.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
