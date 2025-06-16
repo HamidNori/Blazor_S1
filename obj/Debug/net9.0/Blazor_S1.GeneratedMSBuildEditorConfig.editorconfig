@@ -24,20 +24,12 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hamme/Documents/GitHub/Blazor_S1/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
+[/home/hamme/Documents/GitHub/Blazor_S1/Components/Pages/Add.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BZGQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hamme/Documents/GitHub/Blazor_S1/Components/Pages/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/hamme/Documents/GitHub/Blazor_S1/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/hamme/Documents/GitHub/Blazor_S1/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
+[/home/hamme/Documents/GitHub/Blazor_S1/Components/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Qcm9maWxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/hamme/Documents/GitHub/Blazor_S1/Components/Routes.razor]
@@ -55,3 +47,7 @@ build_metadata.AdditionalFiles.CssScope = b-6pjpjrfob0
 [/home/hamme/Documents/GitHub/Blazor_S1/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ry2umv7w87
+
+[/home/hamme/Documents/GitHub/Blazor_S1/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-oiuepgrav4

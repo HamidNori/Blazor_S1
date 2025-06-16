@@ -16,7 +16,6 @@
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/bundle/Blazor_S1.styles.css
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/projectbundle/Blazor_S1.bundle.scp.css
-/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/26n4zlm5ss-w7mf952350.gz
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/h1e1y590zg-bqjiyaj88i.gz
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/w5wu68etui-c2jlpeoesf.gz
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/vads35qyir-erw9l3u2r3.gz
@@ -61,8 +60,6 @@
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/u9ae4eyeng-h1s4sie4z3.gz
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/kpkux0epv3-63fj8s7r0e.gz
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/7co90q1gg4-0j3bgjxly4.gz
-/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/s2jq2yekuz-vt2zz5czfl.gz
-/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/apd7yttlql-vt2zz5czfl.gz
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/staticwebassets.build.json
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/staticwebassets.development.json
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -77,3 +74,8 @@
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/Blazor_S1.pdb
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/Blazor_S1.genruntimeconfig.cache
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/ref/Blazor_S1.dll
+/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/Blazor_S1.sourcelink.json
+/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/26n4zlm5ss-8oyzgagqrh.gz
+/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/Components/Pages/Home.razor.rz.scp.css
+/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/s2jq2yekuz-zw2kbkkvch.gz
+/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/apd7yttlql-zw2kbkkvch.gz

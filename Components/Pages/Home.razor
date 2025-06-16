@@ -1,4 +1,57 @@
 ﻿@page "/"
+@rendermode InteractiveServer
+@inject Blazor_S1.Service.TodoService TodoService;
 
-<PageTitle>Home</PageTitle>
+<div class="checklist-container">
+    <h3>Todo (@TodoService.Todos.Count(todo => !todo.IsDone))</h3>
 
+    @foreach (var todo in TodoService.Todos)
+    {
+        <div class="checkbox-wrapper">
+        <input style="display: none;" type="checkbox" id="cbx-@todo.Id" class="inp-cbx" @bind="todo.IsDone" />
+        <label for="cbx-@todo.Id" class="cbx">
+            <span>
+            <svg viewBox="0 0 12 9" height="9px" width="12px">
+                <polyline points="1 5 4 8 11 1"></polyline>
+            </svg>
+            </span>
+            <span>@todo.Title</span>
+        </label>
+        <input type="text" class="todo-Description" @bind="todo.Description" placeholder="Description" />
+        </div>
+    }
+
+
+
+    
+    <input @bind="newTodo">
+    <input type="text" @bind="newDescription" placeholder="Description" />
+</div>
+
+@code {
+    private string newTodo = "";
+    private string newDescription = "";
+
+    private void AddTodo()
+    {
+        TodoService.AddTodo(newTodo);
+        newTodo = string.Empty;
+        StateHasChanged();
+    }
+    private void DescriptionTodo(string Description, Guid id)
+    {
+        TodoService.DescriptionTodo(id, Description);
+        newTodo = string.Empty;
+        AddTodo();
+    }
+
+    protected override void OnInitialized()
+    {
+        TodoService.OnChange += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        TodoService.OnChange -= StateHasChanged;
+    }
+}
