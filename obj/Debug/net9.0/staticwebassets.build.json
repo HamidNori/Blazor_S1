@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b8IdrM+yMYFxSKh1h7RS8SHAkyz3mSAY60LVB+21JMQ=",
+  "Hash": "BxRFAkhT8Myt1YruuVAl809FsDiRAACn7S7W9NFGgKE=",
   "Source": "Blazor_S1",
   "BasePath": "_content/Blazor_S1",
   "Mode": "Default",
@@ -269,12 +269,12 @@
       "OriginalItemSpec": "/home/hamme/Documents/GitHub/Blazor_S1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/apd7yttlql-zw2kbkkvch.gz",
+      "Identity": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/apd7yttlql-hhq9r0pfuc.gz",
       "SourceId": "Blazor_S1",
       "SourceType": "Computed",
       "ContentRoot": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Blazor_S1",
-      "RelativePath": "Blazor_S1#[.{fingerprint=zw2kbkkvch}]!.bundle.scp.css.gz",
+      "RelativePath": "Blazor_S1#[.{fingerprint=hhq9r0pfuc}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -283,8 +283,8 @@
       "RelatedAsset": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/projectbundle/Blazor_S1.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ydntj06di7",
-      "Integrity": "WlESb7Iycyq2A3fEBb35fmYNnmniKtXFmvbHEmYwf3I=",
+      "Fingerprint": "3antaucosh",
+      "Integrity": "5aLQfk3LsgL03A2ZYlinOLTAev3aICZUVUlSbAX0/gc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/projectbundle/Blazor_S1.bundle.scp.css"
@@ -710,12 +710,12 @@
       "OriginalItemSpec": "/home/hamme/Documents/GitHub/Blazor_S1/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/s2jq2yekuz-zw2kbkkvch.gz",
+      "Identity": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/s2jq2yekuz-hhq9r0pfuc.gz",
       "SourceId": "Blazor_S1",
       "SourceType": "Computed",
       "ContentRoot": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Blazor_S1",
-      "RelativePath": "Blazor_S1#[.{fingerprint=zw2kbkkvch}]?.styles.css.gz",
+      "RelativePath": "Blazor_S1#[.{fingerprint=hhq9r0pfuc}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -724,8 +724,8 @@
       "RelatedAsset": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/bundle/Blazor_S1.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ydntj06di7",
-      "Integrity": "WlESb7Iycyq2A3fEBb35fmYNnmniKtXFmvbHEmYwf3I=",
+      "Fingerprint": "3antaucosh",
+      "Integrity": "5aLQfk3LsgL03A2ZYlinOLTAev3aICZUVUlSbAX0/gc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/bundle/Blazor_S1.styles.css"
@@ -1018,8 +1018,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "zw2kbkkvch",
-      "Integrity": "wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y=",
+      "Fingerprint": "hhq9r0pfuc",
+      "Integrity": "q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/bundle/Blazor_S1.styles.css"
@@ -1039,8 +1039,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "zw2kbkkvch",
-      "Integrity": "wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y=",
+      "Fingerprint": "hhq9r0pfuc",
+      "Integrity": "q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/projectbundle/Blazor_S1.bundle.scp.css"
@@ -2038,7 +2038,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 16:29:02 GMT"
+          "Value": "Wed, 18 Jun 2025 21:36:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2099,7 +2099,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 16:29:02 GMT"
+          "Value": "Wed, 18 Jun 2025 21:36:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2144,7 +2144,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 16:29:02 GMT"
+          "Value": "Wed, 18 Jun 2025 21:36:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2199,7 +2199,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 16:29:02 GMT"
+          "Value": "Wed, 18 Jun 2025 21:36:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2252,7 +2252,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 16:29:02 GMT"
+          "Value": "Wed, 18 Jun 2025 21:36:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2289,7 +2289,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 16:29:02 GMT"
+          "Value": "Wed, 18 Jun 2025 21:36:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2313,12 +2313,12 @@
     },
     {
       "Route": "Blazor_S1.bundle.scp.css",
-      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/apd7yttlql-zw2kbkkvch.gz",
+      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/apd7yttlql-hhq9r0pfuc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000655307995"
+          "Quality": "0.000621118012"
         }
       ],
       "ResponseHeaders": [
@@ -2328,15 +2328,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1525"
+          "Value": "1609"
         },
         {
           "Name": "ETag",
-          "Value": "\"WlESb7Iycyq2A3fEBb35fmYNnmniKtXFmvbHEmYwf3I=\""
+          "Value": "\"5aLQfk3LsgL03A2ZYlinOLTAev3aICZUVUlSbAX0/gc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:15:06 GMT"
+          "Value": "Mon, 23 Jun 2025 16:00:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2356,13 +2356,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y=\""
+          "Value": "W/\"q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y="
+          "Value": "sha256-q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA="
         }
       ]
     },
@@ -2377,7 +2377,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5353"
+          "Value": "6072"
         },
         {
           "Name": "Content-Type",
@@ -2385,11 +2385,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y=\""
+          "Value": "\"q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:15:06 GMT"
+          "Value": "Mon, 23 Jun 2025 16:00:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2399,13 +2399,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y="
+          "Value": "sha256-q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA="
         }
       ]
     },
     {
       "Route": "Blazor_S1.bundle.scp.css.gz",
-      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/apd7yttlql-zw2kbkkvch.gz",
+      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/apd7yttlql-hhq9r0pfuc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2414,7 +2414,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1525"
+          "Value": "1609"
         },
         {
           "Name": "Content-Type",
@@ -2422,11 +2422,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WlESb7Iycyq2A3fEBb35fmYNnmniKtXFmvbHEmYwf3I=\""
+          "Value": "\"5aLQfk3LsgL03A2ZYlinOLTAev3aICZUVUlSbAX0/gc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:15:06 GMT"
+          "Value": "Mon, 23 Jun 2025 16:00:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2444,18 +2444,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WlESb7Iycyq2A3fEBb35fmYNnmniKtXFmvbHEmYwf3I="
+          "Value": "sha256-5aLQfk3LsgL03A2ZYlinOLTAev3aICZUVUlSbAX0/gc="
         }
       ]
     },
     {
-      "Route": "Blazor_S1.styles.css",
-      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/s2jq2yekuz-zw2kbkkvch.gz",
+      "Route": "Blazor_S1.hhq9r0pfuc.bundle.scp.css",
+      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/apd7yttlql-hhq9r0pfuc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000655307995"
+          "Quality": "0.000621118012"
         }
       ],
       "ResponseHeaders": [
@@ -2465,152 +2465,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1525"
+          "Value": "1609"
         },
         {
           "Name": "ETag",
-          "Value": "\"WlESb7Iycyq2A3fEBb35fmYNnmniKtXFmvbHEmYwf3I=\""
+          "Value": "\"5aLQfk3LsgL03A2ZYlinOLTAev3aICZUVUlSbAX0/gc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:15:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y="
-        }
-      ]
-    },
-    {
-      "Route": "Blazor_S1.styles.css",
-      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/bundle/Blazor_S1.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5353"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:15:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y="
-        }
-      ]
-    },
-    {
-      "Route": "Blazor_S1.styles.css.gz",
-      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/s2jq2yekuz-zw2kbkkvch.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1525"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WlESb7Iycyq2A3fEBb35fmYNnmniKtXFmvbHEmYwf3I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:15:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WlESb7Iycyq2A3fEBb35fmYNnmniKtXFmvbHEmYwf3I="
-        }
-      ]
-    },
-    {
-      "Route": "Blazor_S1.zw2kbkkvch.bundle.scp.css",
-      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/apd7yttlql-zw2kbkkvch.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000655307995"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1525"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WlESb7Iycyq2A3fEBb35fmYNnmniKtXFmvbHEmYwf3I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:15:06 GMT"
+          "Value": "Mon, 23 Jun 2025 16:00:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2630,13 +2493,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y=\""
+          "Value": "W/\"q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zw2kbkkvch"
+          "Value": "hhq9r0pfuc"
         },
         {
           "Name": "label",
@@ -2644,12 +2507,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y="
+          "Value": "sha256-q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA="
         }
       ]
     },
     {
-      "Route": "Blazor_S1.zw2kbkkvch.bundle.scp.css",
+      "Route": "Blazor_S1.hhq9r0pfuc.bundle.scp.css",
       "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/projectbundle/Blazor_S1.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2659,7 +2522,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5353"
+          "Value": "6072"
         },
         {
           "Name": "Content-Type",
@@ -2667,11 +2530,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y=\""
+          "Value": "\"q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:15:06 GMT"
+          "Value": "Mon, 23 Jun 2025 16:00:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2681,7 +2544,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zw2kbkkvch"
+          "Value": "hhq9r0pfuc"
         },
         {
           "Name": "label",
@@ -2689,13 +2552,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y="
+          "Value": "sha256-q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA="
         }
       ]
     },
     {
-      "Route": "Blazor_S1.zw2kbkkvch.bundle.scp.css.gz",
-      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/apd7yttlql-zw2kbkkvch.gz",
+      "Route": "Blazor_S1.hhq9r0pfuc.bundle.scp.css.gz",
+      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/apd7yttlql-hhq9r0pfuc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2704,7 +2567,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1525"
+          "Value": "1609"
         },
         {
           "Name": "Content-Type",
@@ -2712,11 +2575,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WlESb7Iycyq2A3fEBb35fmYNnmniKtXFmvbHEmYwf3I=\""
+          "Value": "\"5aLQfk3LsgL03A2ZYlinOLTAev3aICZUVUlSbAX0/gc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:15:06 GMT"
+          "Value": "Mon, 23 Jun 2025 16:00:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2734,7 +2597,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zw2kbkkvch"
+          "Value": "hhq9r0pfuc"
         },
         {
           "Name": "label",
@@ -2742,18 +2605,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WlESb7Iycyq2A3fEBb35fmYNnmniKtXFmvbHEmYwf3I="
+          "Value": "sha256-5aLQfk3LsgL03A2ZYlinOLTAev3aICZUVUlSbAX0/gc="
         }
       ]
     },
     {
-      "Route": "Blazor_S1.zw2kbkkvch.styles.css",
-      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/s2jq2yekuz-zw2kbkkvch.gz",
+      "Route": "Blazor_S1.hhq9r0pfuc.styles.css",
+      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/s2jq2yekuz-hhq9r0pfuc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000655307995"
+          "Quality": "0.000621118012"
         }
       ],
       "ResponseHeaders": [
@@ -2763,15 +2626,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1525"
+          "Value": "1609"
         },
         {
           "Name": "ETag",
-          "Value": "\"WlESb7Iycyq2A3fEBb35fmYNnmniKtXFmvbHEmYwf3I=\""
+          "Value": "\"5aLQfk3LsgL03A2ZYlinOLTAev3aICZUVUlSbAX0/gc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:15:06 GMT"
+          "Value": "Mon, 23 Jun 2025 16:00:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2791,13 +2654,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y=\""
+          "Value": "W/\"q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zw2kbkkvch"
+          "Value": "hhq9r0pfuc"
         },
         {
           "Name": "label",
@@ -2805,12 +2668,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y="
+          "Value": "sha256-q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA="
         }
       ]
     },
     {
-      "Route": "Blazor_S1.zw2kbkkvch.styles.css",
+      "Route": "Blazor_S1.hhq9r0pfuc.styles.css",
       "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/bundle/Blazor_S1.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2820,7 +2683,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5353"
+          "Value": "6072"
         },
         {
           "Name": "Content-Type",
@@ -2828,11 +2691,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y=\""
+          "Value": "\"q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:15:06 GMT"
+          "Value": "Mon, 23 Jun 2025 16:00:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2842,7 +2705,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zw2kbkkvch"
+          "Value": "hhq9r0pfuc"
         },
         {
           "Name": "label",
@@ -2850,13 +2713,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wwaEpFaPIx8CWLyHvZVKNPco/lmmywGoekQHKp8hL/Y="
+          "Value": "sha256-q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA="
         }
       ]
     },
     {
-      "Route": "Blazor_S1.zw2kbkkvch.styles.css.gz",
-      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/s2jq2yekuz-zw2kbkkvch.gz",
+      "Route": "Blazor_S1.hhq9r0pfuc.styles.css.gz",
+      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/s2jq2yekuz-hhq9r0pfuc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2865,7 +2728,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1525"
+          "Value": "1609"
         },
         {
           "Name": "Content-Type",
@@ -2873,11 +2736,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WlESb7Iycyq2A3fEBb35fmYNnmniKtXFmvbHEmYwf3I=\""
+          "Value": "\"5aLQfk3LsgL03A2ZYlinOLTAev3aICZUVUlSbAX0/gc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 19:15:06 GMT"
+          "Value": "Mon, 23 Jun 2025 16:00:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2895,7 +2758,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zw2kbkkvch"
+          "Value": "hhq9r0pfuc"
         },
         {
           "Name": "label",
@@ -2903,7 +2766,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WlESb7Iycyq2A3fEBb35fmYNnmniKtXFmvbHEmYwf3I="
+          "Value": "sha256-5aLQfk3LsgL03A2ZYlinOLTAev3aICZUVUlSbAX0/gc="
+        }
+      ]
+    },
+    {
+      "Route": "Blazor_S1.styles.css",
+      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/s2jq2yekuz-hhq9r0pfuc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000621118012"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1609"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5aLQfk3LsgL03A2ZYlinOLTAev3aICZUVUlSbAX0/gc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 16:00:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA="
+        }
+      ]
+    },
+    {
+      "Route": "Blazor_S1.styles.css",
+      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/bundle/Blazor_S1.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6072"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 16:00:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q8bIIGnhM1b1s6mrvMmpUOczUo2y1KgfnD0zK9R2kiA="
+        }
+      ]
+    },
+    {
+      "Route": "Blazor_S1.styles.css.gz",
+      "AssetFile": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/s2jq2yekuz-hhq9r0pfuc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5aLQfk3LsgL03A2ZYlinOLTAev3aICZUVUlSbAX0/gc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Jun 2025 16:00:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5aLQfk3LsgL03A2ZYlinOLTAev3aICZUVUlSbAX0/gc="
         }
       ]
     },
