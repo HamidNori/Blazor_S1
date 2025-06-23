@@ -1,4 +1,4 @@
-.container
+.container[b-aelsf54yof]
 {
     height: 100%;
     width: 100%;
@@ -11,7 +11,7 @@
 
 }
 
-.Title 
+.Title[b-aelsf54yof] 
 {
     margin-top: 50px;
     grid-area: title;
@@ -22,7 +22,7 @@
     
 }
 
-.uppgift-container
+.uppgift-container[b-aelsf54yof]
 {
     overflow: hidden;
     display: flex;
@@ -38,12 +38,12 @@
 
 }
 
-.uppgift-container:hover
+.uppgift-container:hover[b-aelsf54yof]
 {
   transform: scale(1.02);
 }
 
-.uppgift 
+.uppgift[b-aelsf54yof] 
 {
     height: 50px;
     width: 100%;
@@ -53,7 +53,7 @@
     flex-wrap: wrap;
 }
 
-.uppgift-text
+.uppgift-text[b-aelsf54yof]
 {
     width: 100%;
     height: 100%;
@@ -68,7 +68,7 @@
 }
 
 
-.uppgift-text input[type="checkbox"] {
+.uppgift-text input[type="checkbox"][b-aelsf54yof] {
   position: absolute;
   opacity: 0;
   width: 0;
@@ -76,14 +76,14 @@
   margin: 0;
 }
 
-.uppgift-text label {
+.uppgift-text label[b-aelsf54yof] {
   position: relative;
   padding-left: 30px;
   cursor: pointer;
   user-select: none;
 }
 
-.uppgift-text label::before {
+.uppgift-text label[b-aelsf54yof]::before {
   border-radius: 50%;
   content: "";
   position: absolute;
@@ -98,12 +98,12 @@
   transition: background-color 0.2s, border-color 0.2s;
 }
 
-.uppgift-text input[type="checkbox"]:checked + label::before {
+.uppgift-text input[type="checkbox"]:checked + label[b-aelsf54yof]::before {
   background-color: #007BFF;
   border-color: #0056b3;
 }
 
-.uppgift-text input[type="checkbox"]:checked + label::after {
+.uppgift-text input[type="checkbox"]:checked + label[b-aelsf54yof]::after {
   content: "";
   position: absolute;
   left: 5px;
@@ -115,7 +115,7 @@
   pointer-events: none;
 }
 
-.uppgift-button
+.uppgift-button[b-aelsf54yof]
 {
     width: 20%;
     height: 10px;
@@ -125,42 +125,9 @@
     flex-direction: row;
 }
 
-.uppgifter-button button
+.uppgifter-button button[b-aelsf54yof]
 {
     border-radius: 50%;
     border: none;
     padding: 10px;
-}
-
-.Add
-{
-    background-color: #72DE7F;
-}
-
-.Remove
-{
-    background-color: #E26868;
-}
-
-
-.add-Uppgift
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #8B80EE;
-  border: none;
-  height: 250px;
-  width: 100%;
-  font-size: 4rem;
-  color: #fff;
-  border-radius: 30px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-  transition: all 1s ease;
-
-}
-
-.add-Uppgift:hover
-{
-  transform: scale(1.02);
 }

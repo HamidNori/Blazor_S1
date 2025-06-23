@@ -1,8 +1,12 @@
 {
   "Files": [
     {
+      "Id": "/home/hamme/Documents/GitHub/Blazor_S1/Components/Layout/NavMenu.razor.js",
+      "PackagePath": "staticwebassets/Components/Layout/NavMenu.razor.js"
+    },
+    {
       "Id": "/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/projectbundle/Blazor_S1.bundle.scp.css",
-      "PackagePath": "staticwebassets/Blazor_S1.hhq9r0pfuc.bundle.scp.css"
+      "PackagePath": "staticwebassets/Blazor_S1.umjwg24041.bundle.scp.css"
     },
     {
       "Id": "/home/hamme/Documents/GitHub/Blazor_S1/wwwroot/app.css",

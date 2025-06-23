@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope = b-6pjpjrfob0
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ry2umv7w87
 
+[/home/hamme/Documents/GitHub/Blazor_S1/Components/Pages/AllaToDo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BbGxhVG9Eby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-aelsf54yof
+
 [/home/hamme/Documents/GitHub/Blazor_S1/Components/Pages/EgnaToDo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FZ25hVG9Eby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-pxzwadomci

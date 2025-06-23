@@ -131,36 +131,3 @@
     border: none;
     padding: 10px;
 }
-
-.Add
-{
-    background-color: #72DE7F;
-}
-
-.Remove
-{
-    background-color: #E26868;
-}
-
-
-.add-Uppgift
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #8B80EE;
-  border: none;
-  height: 250px;
-  width: 100%;
-  font-size: 4rem;
-  color: #fff;
-  border-radius: 30px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-  transition: all 1s ease;
-
-}
-
-.add-Uppgift:hover
-{
-  transform: scale(1.02);
-}
