@@ -12,29 +12,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>whgv970t46</Fingerprint>
-      <Integrity>RMrAqjo+23Mm2Mst4PPjRAHBn1R1SyVsdHSfBgqTDjM=</Integrity>
+      <Fingerprint>xr9q3fojti</Fingerprint>
+      <Integrity>/XKsTbdnaBYKNpoS5wx8MwdgutW0BSyUSVH+ESYoP20=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Blazor_S1.umjwg24041.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Blazor_S1.ebubk5un4k.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>Blazor_S1</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Blazor_S1</BasePath>
-      <RelativePath>Blazor_S1.umjwg24041.bundle.scp.css</RelativePath>
+      <RelativePath>Blazor_S1.ebubk5un4k.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>umjwg24041</Fingerprint>
-      <Integrity>mjx1Ra+wd/OOjZsEuL4wmN/2gcbkq7NejQfoFy3bSKo=</Integrity>
+      <Fingerprint>ebubk5un4k</Fingerprint>
+      <Integrity>Ota9ATTLVGJ17YU5Q7hZNbqIK6pzo9FvbBSbEVChjIg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Blazor_S1.umjwg24041.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Blazor_S1.ebubk5un4k.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Components\Layout\NavMenu.razor.js'))">
       <SourceType>Package</SourceType>

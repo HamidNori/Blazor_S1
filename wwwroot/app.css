@@ -1,6 +1,37 @@
+:root {
+  /* Bakgrundsfärger */
+  --bg-light-blue: #9EDBF2;
+  --bg-light-peach: #FFD1B2;
+  --bg-light-pink: #F9B6C1;
+  --bg-light-beige: #FAF6ED;
+  --bg-light-green: #D8E8D3;
+
+
+  /* Primära UI-färger */
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-yellow: #FFD447;
+  --color-light-yellow: #FFF4CE;
+
+  /* Accentfärger */
+  --color-dark-gray: #4A4A4A;
+
+  /* Text och ikoner */
+  --text-main: #000000;
+  --text-muted: #4A4A4A;
+  --text-inverted: #FFFFFF;
+
+
+  /*Shadows*/
+  --webkit-box-shadow: 5px 7px 0px 0px rgba(0,0,0,1);
+  --webkit-box-shadow-on-hover: 5px 16px 0px 0px rgba(0,0,0,1);
+}
+
+
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Roboto Slab", serif ;
     scrollbar-width: none;
+    background-color: var(--bg-light-green);
 }
 
 a, .btn-link {

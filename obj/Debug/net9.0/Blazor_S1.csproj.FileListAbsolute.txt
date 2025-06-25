@@ -78,7 +78,7 @@
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/Components/Pages/Login.razor.rz.scp.css
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/Components/Pages/EgnaToDo.razor.rz.scp.css
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/ksb56g9iwv-9kul9wo2hv.gz
-/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/26n4zlm5ss-whgv970t46.gz
 /home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/scopedcss/Components/Pages/AllaToDo.razor.rz.scp.css
-/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/s2jq2yekuz-umjwg24041.gz
-/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/apd7yttlql-umjwg24041.gz
+/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/26n4zlm5ss-xr9q3fojti.gz
+/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/s2jq2yekuz-ebubk5un4k.gz
+/home/hamme/Documents/GitHub/Blazor_S1/obj/Debug/net9.0/compressed/apd7yttlql-ebubk5un4k.gz

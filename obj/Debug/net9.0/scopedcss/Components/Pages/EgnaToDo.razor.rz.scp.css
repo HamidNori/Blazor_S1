@@ -13,11 +13,14 @@
 
 .Title[b-pxzwadomci] 
 {
-    margin-top: 50px;
+    font-family: 'Space Mono';
+    margin-top: 40px;
     grid-area: title;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    font-weight: 700;
+    font-size: 40px;
     
     
 }
@@ -26,21 +29,58 @@
 {
     overflow: hidden;
     display: flex;
+
     flex-direction: column;
     gap: 15px;
     transition: all 1s ease;
-    background-color:#D9D9D9 ;
+    background-color:var(--color-yellow);
+    border: 2px var(--color-black) solid;
     width: 100%;
-    height: 250px;
-    border-radius: 35px;
+    min-height: 250px;
     padding: 15px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    box-shadow: var(--webkit-box-shadow);
 
 }
 
-.uppgift-container:hover[b-pxzwadomci]
-{
+.uppgift-container:hover[b-pxzwadomci]{
   transform: scale(1.02);
+  box-shadow: var(--webkit-box-shadow-on-hover);
+}
+
+.AddTodo[b-pxzwadomci]
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  height: 40px;
+  box-shadow: var(--webkit-box-shadow);
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.AddTodo button[b-pxzwadomci]
+{
+  padding: 0;
+  border: 1px var(--color-dark-gray) solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-white);
+  font-size: 2rem;
+  width: 20%;
+  
+  height: 100%;
+  background-color: transparent;
+}
+
+.AddTodo input[b-pxzwadomci] 
+{
+  height: 2rem;
+  font-family: 'Poppins';
+  width:80%;
+  height: 100%;
+  border: none;
 }
 
 .uppgift[b-pxzwadomci] 
@@ -58,14 +98,27 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    background-color: white;
-    border-radius: 30px;
+    background-color: var(--color-white);
     padding: 15px;
     font-size: 1.2em;
     margin-right: 0.5rem;
+    box-shadow: var(--webkit-box-shadow);
+
 }
+
+.uppgift-text button[b-pxzwadomci]
+{
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var();
+  background-color: transparent;
+}
+
 
 
 .uppgift-text input[type="checkbox"][b-pxzwadomci] {
@@ -84,7 +137,7 @@
 }
 
 .uppgift-text label[b-pxzwadomci]::before {
-  border-radius: 50%;
+  border: 2px var(--color-black) solid;
   content: "";
   position: absolute;
   left: 0;
@@ -93,15 +146,19 @@
   width: 25px;
   height: 25px;
   border-radius: 10dpx;
-  background-color: white;
+  background-color: var(--color-white);
   box-sizing: border-box;
   transition: background-color 0.2s, border-color 0.2s;
 }
 
 .uppgift-text input[type="checkbox"]:checked + label[b-pxzwadomci]::before {
-  background-color: #007BFF;
-  border-color: #0056b3;
+  background-color: var(--bg-light-blue);
+  border-color: var(--color-black);
+  text-decoration: line-through;
 }
+
+
+
 
 .uppgift-text input[type="checkbox"]:checked + label[b-pxzwadomci]::after {
   content: "";
@@ -113,33 +170,39 @@
   font-weight: bold;
   font-size: 16px;
   pointer-events: none;
+  text-decoration: line-through;
 }
 
-.uppgift-button[b-pxzwadomci]
+
+.uppgifter-button[b-pxzwadomci]
 {
-    width: 20%;
-    height: 10px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.uppgifter-button h5[b-pxzwadomci]
+{
+  font-family: 'Space Mono';
+  font-weight: 700;
 }
 
 .uppgifter-button button[b-pxzwadomci]
 {
-    border-radius: 50%;
     border: none;
-    padding: 10px;
+    padding: 15px;
 }
 
-.Add[b-pxzwadomci]
+.unlockButton[b-pxzwadomci]
 {
     background-color: #72DE7F;
+    pointer-events: auto !important;
+
 }
 
 .Remove[b-pxzwadomci]
 {
     background-color: #E26868;
+    pointer-events: auto !important;
 }
 
 
@@ -148,19 +211,47 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #8B80EE;
+  background-color: var(--color-dark-gray);
   border: none;
   height: 250px;
   width: 100%;
   font-size: 4rem;
-  color: #fff;
-  border-radius: 30px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  color: var(--color-white);
+  box-shadow: var(--webkit-box-shadow);
   transition: all 1s ease;
-
 }
 
 .add-Uppgift:hover[b-pxzwadomci]
 {
   transform: scale(1.02);
+  box-shadow: var(--webkit-box-shadow-on-hover);
+}
+
+.dark-list[b-pxzwadomci] {
+    background-color: #222;
+    color: #aaa;
+    pointer-events: none;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.dark-list *[b-pxzwadomci] {
+    pointer-events: none;
+}
+
+
+.fade-in[b-pxzwadomci] {
+  animation: fadeIn-b-pxzwadomci 1s ease-in-out;
+}
+
+@keyframes fadeIn-b-pxzwadomci {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+    
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
