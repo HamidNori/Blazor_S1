@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/hamme/Documents/GitHub/Blazor_S1/Blazor_S1.csproj": {}
+    "C:\\Users\\hamno\\OneDrive\\Documents\\GitHub\\Blazor_S1\\Blazor_S1.csproj": {}
   },
   "projects": {
-    "/home/hamme/Documents/GitHub/Blazor_S1/Blazor_S1.csproj": {
+    "C:\\Users\\hamno\\OneDrive\\Documents\\GitHub\\Blazor_S1\\Blazor_S1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hamme/Documents/GitHub/Blazor_S1/Blazor_S1.csproj",
+        "projectUniqueName": "C:\\Users\\hamno\\OneDrive\\Documents\\GitHub\\Blazor_S1\\Blazor_S1.csproj",
         "projectName": "Blazor_S1",
-        "projectPath": "/home/hamme/Documents/GitHub/Blazor_S1/Blazor_S1.csproj",
-        "packagesPath": "/home/hamme/.nuget/packages/",
-        "outputPath": "/home/hamme/Documents/GitHub/Blazor_S1/obj/",
+        "projectPath": "C:\\Users\\hamno\\OneDrive\\Documents\\GitHub\\Blazor_S1\\Blazor_S1.csproj",
+        "packagesPath": "C:\\Users\\hamno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hamno\\OneDrive\\Documents\\GitHub\\Blazor_S1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/hamme/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\hamno\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -54,12 +54,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.4, 9.0.4]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -68,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

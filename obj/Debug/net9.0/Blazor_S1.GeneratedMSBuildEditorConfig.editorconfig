@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Blazor_S1
 build_property.RootNamespace = Blazor_S1
-build_property.ProjectDir = /home/hamme/Documents/GitHub/Blazor_S1/
+build_property.ProjectDir = C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/hamme/Documents/GitHub/Blazor_S1
+build_property.MSBuildProjectDirectory = C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/hamme/Documents/GitHub/Blazor_S1/Components/App.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
+[C:/Users/hamno/OneDrive/Documents/GitHub/Blazor_S1/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hamme/Documents/GitHub/Blazor_S1/Components/Routes.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+[C:/Users/hamno/OneDrive/Documents/GitHub/Blazor_S1/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hamme/Documents/GitHub/Blazor_S1/Components/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
+[C:/Users/hamno/OneDrive/Documents/GitHub/Blazor_S1/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/hamme/Documents/GitHub/Blazor_S1/Components/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-6pjpjrfob0
+[C:/Users/hamno/OneDrive/Documents/GitHub/Blazor_S1/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-rpzdqiie06
 
-[/home/hamme/Documents/GitHub/Blazor_S1/Components/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-ry2umv7w87
+[C:/Users/hamno/OneDrive/Documents/GitHub/Blazor_S1/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-jmdj3bzx1r
 
-[/home/hamme/Documents/GitHub/Blazor_S1/Components/Pages/AllaToDo.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BbGxhVG9Eby5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-aelsf54yof
+[C:/Users/hamno/OneDrive/Documents/GitHub/Blazor_S1/Components/Pages/AllaToDo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBbGxhVG9Eby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-uxusyiatqd
 
-[/home/hamme/Documents/GitHub/Blazor_S1/Components/Pages/EgnaToDo.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FZ25hVG9Eby5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-pxzwadomci
+[C:/Users/hamno/OneDrive/Documents/GitHub/Blazor_S1/Components/Pages/EgnaToDo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFZ25hVG9Eby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-bn0ysh29z1
 
-[/home/hamme/Documents/GitHub/Blazor_S1/Components/Pages/Login.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Mb2dpbi5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-gc6or9rs9o
+[C:/Users/hamno/OneDrive/Documents/GitHub/Blazor_S1/Components/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-pi71hpscz9

@@ -1,4 +1,4 @@
-.container[b-pxzwadomci]
+.container[b-bn0ysh29z1]
 {
     height: 100%;
     width: 100%;
@@ -11,7 +11,7 @@
 
 }
 
-.Title[b-pxzwadomci] 
+.Title[b-bn0ysh29z1] 
 {
     font-family: 'Space Mono';
     margin-top: 40px;
@@ -25,7 +25,7 @@
     
 }
 
-.uppgift-container[b-pxzwadomci]
+.uppgift-container[b-bn0ysh29z1]
 {
     overflow: hidden;
     display: flex;
@@ -42,12 +42,12 @@
 
 }
 
-.uppgift-container:hover[b-pxzwadomci]{
+.uppgift-container:hover[b-bn0ysh29z1]{
   transform: scale(1.02);
   box-shadow: var(--webkit-box-shadow-on-hover);
 }
 
-.AddTodo[b-pxzwadomci]
+.AddTodo[b-bn0ysh29z1]
 {
   display: flex;
   justify-content: center;
@@ -59,7 +59,7 @@
   margin-bottom: 20px;
 }
 
-.AddTodo button[b-pxzwadomci]
+.AddTodo button[b-bn0ysh29z1]
 {
   padding: 0;
   border: 1px var(--color-dark-gray) solid;
@@ -74,7 +74,7 @@
   background-color: transparent;
 }
 
-.AddTodo input[b-pxzwadomci] 
+.AddTodo input[b-bn0ysh29z1] 
 {
   height: 2rem;
   font-family: 'Poppins';
@@ -83,7 +83,7 @@
   border: none;
 }
 
-.uppgift[b-pxzwadomci] 
+.uppgift[b-bn0ysh29z1] 
 {
     height: 50px;
     width: 100%;
@@ -93,7 +93,7 @@
     flex-wrap: wrap;
 }
 
-.uppgift-text[b-pxzwadomci]
+.uppgift-text[b-bn0ysh29z1]
 {
     width: 100%;
     height: 100%;
@@ -108,7 +108,7 @@
 
 }
 
-.uppgift-text button[b-pxzwadomci]
+.uppgift-text button[b-bn0ysh29z1]
 {
   width: 2rem;
   height: 2rem;
@@ -121,7 +121,7 @@
 
 
 
-.uppgift-text input[type="checkbox"][b-pxzwadomci] {
+.uppgift-text input[type="checkbox"][b-bn0ysh29z1] {
   position: absolute;
   opacity: 0;
   width: 0;
@@ -129,14 +129,14 @@
   margin: 0;
 }
 
-.uppgift-text label[b-pxzwadomci] {
+.uppgift-text label[b-bn0ysh29z1] {
   position: relative;
   padding-left: 30px;
   cursor: pointer;
   user-select: none;
 }
 
-.uppgift-text label[b-pxzwadomci]::before {
+.uppgift-text label[b-bn0ysh29z1]::before {
   border: 2px var(--color-black) solid;
   content: "";
   position: absolute;
@@ -151,7 +151,7 @@
   transition: background-color 0.2s, border-color 0.2s;
 }
 
-.uppgift-text input[type="checkbox"]:checked + label[b-pxzwadomci]::before {
+.uppgift-text input[type="checkbox"]:checked + label[b-bn0ysh29z1]::before {
   background-color: var(--bg-light-blue);
   border-color: var(--color-black);
   text-decoration: line-through;
@@ -160,7 +160,7 @@
 
 
 
-.uppgift-text input[type="checkbox"]:checked + label[b-pxzwadomci]::after {
+.uppgift-text input[type="checkbox"]:checked + label[b-bn0ysh29z1]::after {
   content: "";
   position: absolute;
   left: 5px;
@@ -174,39 +174,39 @@
 }
 
 
-.uppgifter-button[b-pxzwadomci]
+.uppgifter-button[b-bn0ysh29z1]
 {
   display: flex;
   justify-content: space-between;
 }
 
-.uppgifter-button h5[b-pxzwadomci]
+.uppgifter-button h5[b-bn0ysh29z1]
 {
   font-family: 'Space Mono';
   font-weight: 700;
 }
 
-.uppgifter-button button[b-pxzwadomci]
+.uppgifter-button button[b-bn0ysh29z1]
 {
     border: none;
     padding: 15px;
 }
 
-.unlockButton[b-pxzwadomci]
+.unlockButton[b-bn0ysh29z1]
 {
     background-color: #72DE7F;
     pointer-events: auto !important;
 
 }
 
-.Remove[b-pxzwadomci]
+.Remove[b-bn0ysh29z1]
 {
     background-color: #E26868;
     pointer-events: auto !important;
 }
 
 
-.add-Uppgift[b-pxzwadomci]
+.add-Uppgift[b-bn0ysh29z1]
 {
   display: flex;
   justify-content: center;
@@ -221,13 +221,13 @@
   transition: all 1s ease;
 }
 
-.add-Uppgift:hover[b-pxzwadomci]
+.add-Uppgift:hover[b-bn0ysh29z1]
 {
   transform: scale(1.02);
   box-shadow: var(--webkit-box-shadow-on-hover);
 }
 
-.dark-list[b-pxzwadomci] {
+.dark-list[b-bn0ysh29z1] {
     background-color: #222;
     color: #aaa;
     pointer-events: none;
@@ -235,16 +235,16 @@
     transition: all 0.3s ease;
 }
 
-.dark-list *[b-pxzwadomci] {
+.dark-list *[b-bn0ysh29z1] {
     pointer-events: none;
 }
 
 
-.fade-in[b-pxzwadomci] {
-  animation: fadeIn-b-pxzwadomci 1s ease-in-out;
+.fade-in[b-bn0ysh29z1] {
+  animation: fadeIn-b-bn0ysh29z1 1s ease-in-out;
 }
 
-@keyframes fadeIn-b-pxzwadomci {
+@keyframes fadeIn-b-bn0ysh29z1 {
   from {
     opacity: 0;
     transform: scale(0.95);
