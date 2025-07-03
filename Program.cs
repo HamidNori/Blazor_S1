@@ -6,8 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-// Register TodoService
+builder.Services.AddControllers();
 
+// Register TodoService
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
