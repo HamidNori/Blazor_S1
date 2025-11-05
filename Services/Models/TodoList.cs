@@ -1,9 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Blazor_S1.Services.Models;
 
-namespace Blazor_S1
+namespace Blazor_S1.Services.Models
 {
     public class TodoList
     {
@@ -12,6 +9,7 @@ namespace Blazor_S1
         public bool IsDark { get; set; } = false;
         public bool IsLocked { get; set; } = false;
         public bool JustAddded { get; set; } = true;
+        public DateTime DueDate { get; set; }
 
     }
 }
