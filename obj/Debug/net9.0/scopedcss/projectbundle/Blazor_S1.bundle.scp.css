@@ -8,9 +8,8 @@
         "NavMenu";
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    min-height: 100vh;
+    max-height: fit-content;
     width: 100%;
-    overflow: hidden;
 }
 
 .content[b-rpzdqiie06] 
@@ -21,7 +20,6 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding-top: 60px;
 }
 
 
@@ -320,262 +318,50 @@
     padding: 10px;
 }
 /* _content/Blazor_S1/Components/Pages/EgnaToDo.razor.rz.scp.css */
-.container[b-bn0ysh29z1]
+#accordion[b-bn0ysh29z1]
 {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 40px;
-
-
-}
-
-.Title[b-bn0ysh29z1] 
-{
-    font-family: 'Space Mono';
-    margin-top: 40px;
-    grid-area: title;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    font-weight: 700;
-    font-size: 40px;
-    
-    
-}
-
-.uppgift-container[b-bn0ysh29z1]
-{
-    overflow: hidden;
-    display: flex;
-
-    flex-direction: column;
-    gap: 15px;
-    transition: all 1s ease;
-    background-color:var(--color-yellow);
-    border: 2px var(--color-black) solid;
-    width: 100%;
-    min-height: 250px;
-    padding: 15px;
-    box-shadow: var(--webkit-box-shadow);
-
-}
-
-.uppgift-container:hover[b-bn0ysh29z1]{
-  transform: scale(1.02);
-  box-shadow: var(--webkit-box-shadow-on-hover);
-}
-
-.AddTodo[b-bn0ysh29z1]
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 98%;
-  height: 40px;
-  box-shadow: var(--webkit-box-shadow);
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-
-.AddTodo button[b-bn0ysh29z1]
-{
-  padding: 0;
-  border: 1px var(--color-dark-gray) solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--color-white);
-  font-size: 2rem;
-  width: 20%;
-  
-  height: 100%;
-  background-color: transparent;
-}
-
-.AddTodo input[b-bn0ysh29z1] 
-{
-  height: 2rem;
-  font-family: 'Poppins';
-  width:80%;
-  height: 100%;
-  border: none;
-}
-
-.uppgift[b-bn0ysh29z1] 
-{
-    height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.uppgift-text[b-bn0ysh29z1]
-{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--color-white);
-    padding: 15px;
-    font-size: 1.2em;
-    margin-right: 0.5rem;
-    box-shadow: var(--webkit-box-shadow);
-
-}
-
-.uppgift-text button[b-bn0ysh29z1]
-{
-  width: 2rem;
-  height: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var();
-  background-color: transparent;
-}
-
-
-
-.uppgift-text input[type="checkbox"][b-bn0ysh29z1] {
-  position: absolute;
-  opacity: 0;
-  width: 0;
-  height: 0;
-  margin: 0;
-}
-
-.uppgift-text label[b-bn0ysh29z1] {
-  position: relative;
-  padding-left: 30px;
-  cursor: pointer;
-  user-select: none;
-}
-
-.uppgift-text label[b-bn0ysh29z1]::before {
-  border: 2px var(--color-black) solid;
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 25px;
-  height: 25px;
-  border-radius: 10dpx;
-  background-color: var(--color-white);
-  box-sizing: border-box;
-  transition: background-color 0.2s, border-color 0.2s;
-}
-
-.uppgift-text input[type="checkbox"]:checked + label[b-bn0ysh29z1]::before {
-  background-color: var(--bg-light-blue);
-  border-color: var(--color-black);
-  text-decoration: line-through;
-}
-
-
-
-
-.uppgift-text input[type="checkbox"]:checked + label[b-bn0ysh29z1]::after {
-  content: "";
-  position: absolute;
-  left: 5px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
-  pointer-events: none;
-  text-decoration: line-through;
-}
-
-
-.uppgifter-button[b-bn0ysh29z1]
-{
-  display: flex;
-  justify-content: space-between;
-}
-
-.uppgifter-button h5[b-bn0ysh29z1]
-{
-  font-family: 'Space Mono';
-  font-weight: 700;
-}
-
-.uppgifter-button button[b-bn0ysh29z1]
-{
-    border: none;
-    padding: 15px;
-}
-
-.unlockButton[b-bn0ysh29z1]
-{
-    background-color: #72DE7F;
-    pointer-events: auto !important;
-
-}
-
-.Remove[b-bn0ysh29z1]
-{
-    background-color: #E26868;
-    pointer-events: auto !important;
-}
-
-
-.add-Uppgift[b-bn0ysh29z1]
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--color-dark-gray);
-  border: none;
-  height: 250px;
   width: 100%;
-  font-size: 4rem;
-  color: var(--color-white);
-  box-shadow: var(--webkit-box-shadow);
-  transition: all 1s ease;
+  padding: 0;
 }
 
-.add-Uppgift:hover[b-bn0ysh29z1]
+#accordion li[b-bn0ysh29z1] {
+  list-style: none;
+  width: 100%;
+  height: auto;
+  background:#fff;
+  padding: 10px;
+  border-bottom: black 1px solid;
+}
+
+#accordion li label[b-bn0ysh29z1]
 {
-  transform: scale(1.02);
-  box-shadow: var(--webkit-box-shadow-on-hover);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+  color: #282828;
 }
 
-.dark-list[b-bn0ysh29z1] {
-    background-color: #222;
-    color: #aaa;
-    pointer-events: none;
-    opacity: 0.6;
-    transition: all 0.3s ease;
+#accordion label + input[type=" checkbox"][b-bn0ysh29z1]
+{
+  display: none;
 }
 
-.dark-list *[b-bn0ysh29z1] {
-    pointer-events: none;
+#accordion .content[b-bn0ysh29z1]
+{
+  padding: 0 10px;
+  line-height: 25px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
 }
 
-
-.fade-in[b-bn0ysh29z1] {
-  animation: fadeIn-b-bn0ysh29z1 1s ease-in-out;
-}
-
-@keyframes fadeIn-b-bn0ysh29z1 {
-  from {
-    opacity: 0;
-    transform: scale(0.95);
-    
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+#accordion label + input[type=" checkbox"]:checked + .content[b-bn0ysh29z1]
+{
+  min-height: 300px;
 }
 /* _content/Blazor_S1/Components/Pages/Login.razor.rz.scp.css */
 .container[b-pi71hpscz9] 

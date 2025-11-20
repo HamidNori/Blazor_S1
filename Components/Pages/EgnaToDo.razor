@@ -3,47 +3,246 @@
 @using Blazor_S1.Services.Models
 
 
-<div class="container">
-    <h1 class="Title">
-        Mina ToDo
-    </h1>
-    @foreach(var list in todoLists)
-    {
-    <div class="uppgift-container @(list.IsDark? "dark-list" : "") @(list.JustAddded? "fade-in" : "")">
-        <div class="uppgifter-button">
-            <div>
-            <button class="Remove" @onclick="() => RemoveTodoList(list)"></button>
-            <button class="unlockButton" @onclick="(() => ToggleLock(list))"></button>
-            </div>
-            <h5>Kvar (@list.Items.Count(item => !item.IsDone))</h5>
-        </div>
-        @foreach(var todo in list.Items)
-        {
-        <div class="uppgift @(todo.JustAddded? "fade-in" : "")">
-            <div class="uppgift-text">
-                @{
-                    var checkboxId = $"uppgift_{list.GetHashCode()}_{todo.GetHashCode()}";
-                }
-                <input type="checkbox" @bind="todo.IsDone" id="@checkboxId" disabled="@list.IsLocked" />
-                <label for="@checkboxId">@todo.Title</label>
-                <button @onclick="() => RemoveTodo(list, todo)" disabled="@list.IsLocked">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="color: white;">
-                    <path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/>
-                    </svg>
-                </button>
-            </div>
-        </div>
+<ul id="accordion">
+    <li>
+        <label for="Måndag">MÅNDAG </label>
+        <input type=" checkbox" name="accordion" id="Måndag" checked>
+        <div class="content">
+                        @foreach (var list in todoLists)
+                        {
+                            <div class="container">
 
-        }
-        <div class="AddTodo">
-            <input @bind="list.NewTodoText" placeholder="Lägg till..." disabled="@list.IsLocked" />
-            <button @onclick="() => AddTodo(list)" disabled="@list.IsLocked">+</button>
-        </div>
-    </div>
-    }
-    <button class="add-Uppgift" @onclick="AddTodoList">+</button>
-</div>
+                                @foreach(var todo in list.Items)
+                                {
+                                <div class="uppgift @(todo.JustAddded? "fade-in" : "")">
+                                    <div class="uppgift-text">
+                                        @{
+                                            var checkboxId = $"uppgift_{list.GetHashCode()}_{todo.GetHashCode()}";
+                                        }
+                                        <input type="checkbox" @bind="todo.IsDone" id="@checkboxId" disabled="@list.IsLocked" />
+                                        <label for="@checkboxId">@todo.Title</label>
+                                        <button @onclick="() => RemoveTodo(list, todo)" disabled="@list.IsLocked">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="color: white;">
+                                            <path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
 
+                                }
+                                <div class="AddTodo">
+                                    <input @bind="list.NewTodoText" placeholder="Lägg till..." disabled="@list.IsLocked" />
+                                    <button @onclick="() => AddTodo(list)" disabled="@list.IsLocked">+</button>
+                                </div>
+                            </div>
+                        }
+                    </div>     
+    </li>
+        <li>
+            <label for="Tisdag">TISDAG  </label>
+                <input type=" checkbox" name="accordion" id="Tisdag">
+                    <div class="content">
+                        @foreach (var list in todoLists)
+                        {
+                            <div class="container">
+
+                                @foreach(var todo in list.Items)
+                                {
+                                <div class="uppgift @(todo.JustAddded? "fade-in" : "")">
+                                    <div class="uppgift-text">
+                                        @{
+                                            var checkboxId = $"uppgift_{list.GetHashCode()}_{todo.GetHashCode()}";
+                                        }
+                                        <input type="checkbox" @bind="todo.IsDone" id="@checkboxId" disabled="@list.IsLocked" />
+                                        <label for="@checkboxId">@todo.Title</label>
+                                        <button @onclick="() => RemoveTodo(list, todo)" disabled="@list.IsLocked">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="color: white;">
+                                            <path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                }
+                                <div class="AddTodo">
+                                    <input @bind="list.NewTodoText" placeholder="Lägg till..." disabled="@list.IsLocked" />
+                                    <button @onclick="() => AddTodo(list)" disabled="@list.IsLocked">+</button>
+                                </div>
+                            </div>
+                        }
+                    </div>     
+    </li>
+        <li>
+            <label for="Onsdag">ONSDAG  </label>
+                <input type=" checkbox" name="accordion" id="Onsdag">
+                    <div class="content">
+                        @foreach (var list in todoLists)
+                        {
+                            <div class="container">
+
+                                @foreach(var todo in list.Items)
+                                {
+                                <div class="uppgift @(todo.JustAddded? "fade-in" : "")">
+                                    <div class="uppgift-text">
+                                        @{
+                                            var checkboxId = $"uppgift_{list.GetHashCode()}_{todo.GetHashCode()}";
+                                        }
+                                        <input type="checkbox" @bind="todo.IsDone" id="@checkboxId" disabled="@list.IsLocked" />
+                                        <label for="@checkboxId">@todo.Title</label>
+                                        <button @onclick="() => RemoveTodo(list, todo)" disabled="@list.IsLocked">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="color: white;">
+                                            <path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                }
+                                <div class="AddTodo">
+                                    <input @bind="list.NewTodoText" placeholder="Lägg till..." disabled="@list.IsLocked" />
+                                    <button @onclick="() => AddTodo(list)" disabled="@list.IsLocked">+</button>
+                                </div>
+                            </div>
+                        }
+                    </div>     
+    </li>
+        <li>
+            <label for="Torsdag">TORSDAG </label>
+                <input type=" checkbox" name="accordion" id="Torsdag">
+                    <div class="content">
+                        @foreach (var list in todoLists)
+                        {
+                            <div class="container">
+
+                                @foreach(var todo in list.Items)
+                                {
+                                <div class="uppgift @(todo.JustAddded? "fade-in" : "")">
+                                    <div class="uppgift-text">
+                                        @{
+                                            var checkboxId = $"uppgift_{list.GetHashCode()}_{todo.GetHashCode()}";
+                                        }
+                                        <input type="checkbox" @bind="todo.IsDone" id="@checkboxId" disabled="@list.IsLocked" />
+                                        <label for="@checkboxId">@todo.Title</label>
+                                        <button @onclick="() => RemoveTodo(list, todo)" disabled="@list.IsLocked">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="color: white;">
+                                            <path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                }
+                                <div class="AddTodo">
+                                    <input @bind="list.NewTodoText" placeholder="Lägg till..." disabled="@list.IsLocked" />
+                                    <button @onclick="() => AddTodo(list)" disabled="@list.IsLocked">+</button>
+                                </div>
+                            </div>
+                        }
+                    </div>     
+    </li>
+        <li>
+            <label for="Fredag">FREDAG </label>
+                <input type=" checkbox" name="accordion" id="Fredag">
+                    <div class="content">
+                        @foreach (var list in todoLists)
+                        {
+                            <div class="container">
+
+                                @foreach(var todo in list.Items)
+                                {
+                                <div class="uppgift @(todo.JustAddded? "fade-in" : "")">
+                                    <div class="uppgift-text">
+                                        @{
+                                            var checkboxId = $"uppgift_{list.GetHashCode()}_{todo.GetHashCode()}";
+                                        }
+                                        <input type="checkbox" @bind="todo.IsDone" id="@checkboxId" disabled="@list.IsLocked" />
+                                        <label for="@checkboxId">@todo.Title</label>
+                                        <button @onclick="() => RemoveTodo(list, todo)" disabled="@list.IsLocked">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="color: white;">
+                                            <path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                }
+                                <div class="AddTodo">
+                                    <input @bind="list.NewTodoText" placeholder="Lägg till..." disabled="@list.IsLocked" />
+                                    <button @onclick="() => AddTodo(list)" disabled="@list.IsLocked">+</button>
+                                </div>
+                            </div>
+                        }
+                    </div>     
+    </li>
+        <li>
+            <label for="Lördag">LÖRDAG </label>
+                <input type=" checkbox" name="accordion" id="Lördag">
+                    <div class="content">
+                        @foreach (var list in todoLists)
+                        {
+                            <div class="container">
+
+                                @foreach(var todo in list.Items)
+                                {
+                                <div class="uppgift @(todo.JustAddded? "fade-in" : "")">
+                                    <div class="uppgift-text">
+                                        @{
+                                            var checkboxId = $"uppgift_{list.GetHashCode()}_{todo.GetHashCode()}";
+                                        }
+                                        <input type="checkbox" @bind="todo.IsDone" id="@checkboxId" disabled="@list.IsLocked" />
+                                        <label for="@checkboxId">@todo.Title</label>
+                                        <button @onclick="() => RemoveTodo(list, todo)" disabled="@list.IsLocked">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="color: white;">
+                                            <path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                }
+                                <div class="AddTodo">
+                                    <input @bind="list.NewTodoText" placeholder="Lägg till..." disabled="@list.IsLocked" />
+                                    <button @onclick="() => AddTodo(list)" disabled="@list.IsLocked">+</button>
+                                </div>
+                            </div>
+                        }
+                    </div>     
+    </li>
+        <li>
+            <label for="Söndag">SÖNDAG </label>
+                <input type=" checkbox" name="accordion" id="Söndag">
+                    <div class="content">
+                        @foreach (var list in todoLists)
+                        {
+                            <div class="container">
+
+                                @foreach(var todo in list.Items)
+                                {
+                                <div class="uppgift @(todo.JustAddded? "fade-in" : "")">
+                                    <div class="uppgift-text">
+                                        @{
+                                            var checkboxId = $"uppgift_{list.GetHashCode()}_{todo.GetHashCode()}";
+                                        }
+                                        <input type="checkbox" @bind="todo.IsDone" id="@checkboxId" disabled="@list.IsLocked" />
+                                        <label for="@checkboxId">@todo.Title</label>
+                                        <button @onclick="() => RemoveTodo(list, todo)" disabled="@list.IsLocked">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="color: white;">
+                                            <path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                }
+                                <div class="AddTodo">
+                                    <input @bind="list.NewTodoText" placeholder="Lägg till..." disabled="@list.IsLocked" />
+                                    <button @onclick="() => AddTodo(list)" disabled="@list.IsLocked">+</button>
+                                </div>
+                            </div>
+                        }
+                    </div>     
+    </li>
+</ul>
 
 
 @code
@@ -91,11 +290,6 @@
     }
 
     
-    void ToggleLock(TodoList list)
-    {
-        list.IsDark = !list.IsDark;
-        list.IsLocked = !list.IsLocked;
-    }
     void RemoveTodo(TodoList list, TodoItem todo)
     {
         list.Items.Remove(todo);
