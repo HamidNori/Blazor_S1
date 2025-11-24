@@ -1,12 +1,4 @@
 .page[b-rpzdqiie06] {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 4fr 0.5fr;
-    grid-template-areas: 
-        "Content"
-        "NavMenu";
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
     max-height: fit-content;
     width: 100%;
 }
@@ -16,23 +8,15 @@
     grid-area: Content;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
     height: 100%;
+    padding: 0;
 }
 
 
 .sidebar[b-rpzdqiie06]
 {
-    grid-area: NavMenu;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+
 }
 
 

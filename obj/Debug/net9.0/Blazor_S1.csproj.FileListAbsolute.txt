@@ -325,7 +325,6 @@ C:\Github\Blazor_S1\obj\Debug\net9.0\scopedcss\Components\Pages\EgnaToDo.razor.r
 C:\Github\Blazor_S1\obj\Debug\net9.0\scopedcss\Components\Pages\Login.razor.rz.scp.css
 C:\Github\Blazor_S1\obj\Debug\net9.0\scopedcss\bundle\Blazor_S1.styles.css
 C:\Github\Blazor_S1\obj\Debug\net9.0\scopedcss\projectbundle\Blazor_S1.bundle.scp.css
-C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\26n4zlm5ss-0nicdmr4qc.gz
 C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\h1e1y590zg-t1cqhe9u97.gz
 C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\w5wu68etui-c2jlpeoesf.gz
 C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\vads35qyir-sejl45xvog.gz
@@ -512,5 +511,6 @@ C:\Github\Blazor_S1\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Cach
 C:\Github\Blazor_S1\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Github\Blazor_S1\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Github\Blazor_S1\obj\Debug\net9.0\Blazor_S1.csproj.Up2Date
-C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\s2jq2yekuz-fvcw2jbx5n.gz
-C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\apd7yttlql-fvcw2jbx5n.gz
+C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\26n4zlm5ss-t6mihbzos2.gz
+C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\s2jq2yekuz-rhadr9uy3l.gz
+C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\apd7yttlql-rhadr9uy3l.gz

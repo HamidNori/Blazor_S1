@@ -31,7 +31,7 @@
 html, body {
     font-family: "Roboto Slab", serif ;
     scrollbar-width: none;
-    background-color: var(--bg-light-green);
+    background: #282828;
 }
 
 a, .btn-link {
