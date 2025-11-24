@@ -1,116 +1,134 @@
 @page "/"
 @rendermode InteractiveServer
 @using Blazor_S1.Services.Models
+@using Blazor_S1.Services.TodoService
+@inject TodoService TodoService
+@inject IJSRuntime JS
 
 
-<ul id="accordion">
-    <li>
-        <label for="Måndag">MÅNDAG </label>
-        <input type="radio" name="accordion" id="Måndag" checked>
-        <div class="content">
-            <div class="inner-content">
-                <p>November, 20 2025</p>
-                    <div class="Lista">
-                        <input type="checkbox" placeholder=""> <span>hej</span>
-                        <input type="checkbox" placeholder=""> <span>hej</span>
-                        <input type="checkbox" placeholder=""> <span>hej</span>
-                    </div>
-            </div>
-        
+<div class="swiper">
+    <div class="swiper-wrapper">
 
-            <div class="Skapa">
-                <input type="text" placeholder="Skapat nytt..."/>
-            </div>
-        </div> 
-    </li>
-    
-    <li>
-        <label for="Tisdag">TISDAG  </label>
-            <input type="radio" name="accordion" id="Tisdag">
-                <div class="content">
-                </div>     
-    </li>
-    <li>
-        <label for="Onsdag">ONSDAG  </label>
-            <input type="radio" name="accordion" id="Onsdag">
-                <div class="content">
-                </div>     
-    </li>
-    <li>
-        <label for="Torsdag">TORSDAG </label>
-            <input type="radio" name="accordion" id="Torsdag">
-                <div class="content">
-                </div>     
-    </li>
-    <li>
-        <label for="Fredag">FREDAG </label>
-            <input type="radio" name="accordion" id="Fredag">
-                <div class="content">
-                </div>     
-    </li>
-    <li>
-        <label for="Lördag">LÖRDAG </label>
-            <input type="radio" name="accordion" id="Lördag">
-                <div class="content">
-                </div>     
-    </li>
-    <li>
-        <label for="Söndag">SÖNDAG </label>
-            <input type="radio" name="accordion" id="Söndag">
-                <div class="content">
-                </div>     
-    </li>
-</ul>
+        <div id="1" class="swiper-slide">
+            <ul id="accordion">
+                @foreach (var day in TodoService.GetAllDays())
+                {
+                    var isFirst = day.Key == "MÅNDAG";
+                    <li>
+                        <label for="@day.Key">@day.Name</label>
+                        <input type="radio" name="accordion" id="@day.Key" checked="@isFirst">
 
+                        <div class="content">
+                            <div class="inner-content">
+                                <p>@GetDateForDay(day.Key)</p>
+
+                                <div class="Lista">
+                                    @foreach (var todo in day.Todos)
+                                    {
+                                        <div>
+                                            <input type="checkbox" 
+                                                   checked="@todo.IsCompleted" 
+                                                   @onchange="() => ToggleTodo(day.Key, todo.Id)">
+                                            <span class="inner-text @(todo.IsCompleted ? "completed" : "")">
+                                                @todo.Text
+                                            </span>
+                                            <button @onclick="() => DeleteTodo(day.Key, todo.Id)">🗑️</button>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+
+                            <div class="Skapa">
+                                <input type="text" 
+                                       placeholder="Skapa nytt..." 
+                                       @bind="newTodoTexts[day.Key]"
+                                       @onkeypress="(e) => HandleKeyPress(e, day.Key)"/>
+                                <button @onclick="() => AddTodo(day.Key)">Lägg till</button>
+                            </div>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+
+        <div id="2" class="swiper-slide">
+            Hej hur mår du
+        </div>
+
+    </div>
+
+</div>
 
 @code
 {
-    private List<TodoItem> todos = new();
-    string newTodo = "";
-    string nameTodo = "";
+    private Dictionary<string, string> newTodoTexts = new Dictionary<string, string>();
 
-    void AddTodo()
+    protected override void OnInitialized()
     {
-        if (!string.IsNullOrWhiteSpace(newTodo))
+        // Initiera dictionary med rätt nycklar från TodoService
+        foreach (var day in TodoService.GetAllDays())
         {
-            todos.Add(new TodoItem { Title = newTodo });
-            newTodo = string.Empty;
+            newTodoTexts[day.Key] = "";
         }
     }
-     void RemoveTodo(TodoItem todo)
+
+    private void AddTodo(string dayKey)
     {
-        todos.Remove(todo);
+        if (newTodoTexts.ContainsKey(dayKey) && !string.IsNullOrWhiteSpace(newTodoTexts[dayKey]))
+        {
+            TodoService.AddTodoToDay(dayKey, newTodoTexts[dayKey]);
+            newTodoTexts[dayKey] = "";
+        }
+    }
+
+    private void ToggleTodo(string dayKey, int todoId)
+    {
+        TodoService.ToggleTodoInDay(dayKey, todoId);
+    }
+
+    private void DeleteTodo(string dayKey, int todoId)
+    {
+        TodoService.RemoveTodoFromDay(dayKey, todoId);
+    }
+
+    private void HandleKeyPress(KeyboardEventArgs e, string dayKey)
+    {
+        if (e.Key == "Enter")
+        {
+            AddTodo(dayKey);
+        }
+    }
+
+    private string GetDateForDay(string dayKey)
+    {
+        var today = DateTime.Now;
+        var daysOfWeek = new[] { "MÅNDAG", "TISDAG", "ONSDAG", "TORSDAG", "FREDAG", "LÖRDAG", "SÖNDAG" };
+        var index = Array.IndexOf(daysOfWeek, dayKey);
+        
+        if (index >= 0)
+        {
+            var currentDayOfWeek = (int)today.DayOfWeek;
+            if (currentDayOfWeek == 0) currentDayOfWeek = 7;
+            
+            var diff = index + 1 - currentDayOfWeek;
+            var targetDate = today.AddDays(diff);
+            
+            return targetDate.ToString("MMMM dd, yyyy", new System.Globalization.CultureInfo("sv-SE"));
+        }
+        
+        return "";
+    }
+
+    @code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await Task.Delay(100); 
+            await JS.InvokeVoidAsync("initSwiper");
+        }
     }
 }
 
-
-@code
-{
-    private List<TodoList> todoLists = new();
-
-    void AddTodoList()
-    {
-        todoLists.Add(new TodoList());
-    }
-
-    void RemoveTodoList(TodoList list)
-    {
-        todoLists.Remove(list);
-    }
-
-    void AddTodo(TodoList list)
-    {
-        if (!string.IsNullOrWhiteSpace(list.NewTodoText))
-        {
-            list.Items.Add(new TodoItem { Title = list.NewTodoText });
-            list.NewTodoText = "";
-        }
-    }
-
-    
-    void RemoveTodo(TodoList list, TodoItem todo)
-    {
-        list.Items.Remove(todo);
-    }
 
 }

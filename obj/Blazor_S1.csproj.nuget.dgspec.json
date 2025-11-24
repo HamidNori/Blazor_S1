@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\Blazor_S1\\Blazor_S1.csproj": {}
+    "C:\\Users\\hamno\\OneDrive\\Documents\\GitHub\\Blazor_S1\\Blazor_S1.csproj": {}
   },
   "projects": {
-    "C:\\Github\\Blazor_S1\\Blazor_S1.csproj": {
+    "C:\\Users\\hamno\\OneDrive\\Documents\\GitHub\\Blazor_S1\\Blazor_S1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\Blazor_S1\\Blazor_S1.csproj",
+        "projectUniqueName": "C:\\Users\\hamno\\OneDrive\\Documents\\GitHub\\Blazor_S1\\Blazor_S1.csproj",
         "projectName": "Blazor_S1",
-        "projectPath": "C:\\Github\\Blazor_S1\\Blazor_S1.csproj",
-        "packagesPath": "C:\\Users\\hano07001\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\Blazor_S1\\obj\\",
+        "projectPath": "C:\\Users\\hamno\\OneDrive\\Documents\\GitHub\\Blazor_S1\\Blazor_S1.csproj",
+        "packagesPath": "C:\\Users\\hamno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hamno\\OneDrive\\Documents\\GitHub\\Blazor_S1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hano07001\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hamno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

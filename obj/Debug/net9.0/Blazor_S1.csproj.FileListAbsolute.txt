@@ -236,12 +236,9 @@ C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\rjsmrazor.ds
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
-C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\scopedcss\Components\Pages\AllaToDo.razor.rz.scp.css
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\scopedcss\Components\Pages\EgnaToDo.razor.rz.scp.css
-C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\scopedcss\Components\Pages\Login.razor.rz.scp.css
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\scopedcss\bundle\Blazor_S1.styles.css
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\scopedcss\projectbundle\Blazor_S1.bundle.scp.css
-C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\26n4zlm5ss-0nicdmr4qc.gz
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\h1e1y590zg-t1cqhe9u97.gz
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\w5wu68etui-c2jlpeoesf.gz
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\vads35qyir-sejl45xvog.gz
@@ -287,8 +284,6 @@ C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\u
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\kpkux0epv3-4d85u1mtcx.gz
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\7co90q1gg4-0j3bgjxly4.gz
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\ksb56g9iwv-i2kjkld9u9.gz
-C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\s2jq2yekuz-2lmt3dyt2l.gz
-C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\apd7yttlql-2lmt3dyt2l.gz
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\staticwebassets.development.json
@@ -514,3 +509,7 @@ C:\Github\Blazor_S1\obj\Debug\net9.0\Blazor_S1.csproj.Up2Date
 C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\26n4zlm5ss-t6mihbzos2.gz
 C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\s2jq2yekuz-rhadr9uy3l.gz
 C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\apd7yttlql-rhadr9uy3l.gz
+C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\26n4zlm5ss-v819st0mjs.gz
+C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\s2jq2yekuz-h4mckamptu.gz
+C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\apd7yttlql-h4mckamptu.gz
+C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\wrcke1l4u7-d4t2wvef7f.gz

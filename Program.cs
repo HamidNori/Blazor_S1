@@ -1,18 +1,16 @@
 using Blazor_S1;
 using Blazor_S1.Components;
-using Microsoft.EntityFrameworkCore; 
+using Microsoft.EntityFrameworkCore;
+using Blazor_S1.Services.TodoService;
+using Blazor_S1.Services.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
-
+builder.Services.AddSingleton<TodoService>();
 builder.Services.AddControllers();
 
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-builder.Services.AddScoped<AuthService>();
 
 var app = builder.Build();
 

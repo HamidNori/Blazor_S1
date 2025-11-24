@@ -29,9 +29,9 @@
 
 
 html, body {
-    font-family: "Roboto Slab", serif ;
+    font-family: "Poppins", "Roboto Slab", serif,  ;
     scrollbar-width: none;
-    background: #282828;
+    background: white;
 }
 
 a, .btn-link {

@@ -6,3 +6,11 @@ C:\Github\Blazor_S1\obj\Debug\net8.0\Blazor_S1.AssemblyInfo.cs
 C:\Github\Blazor_S1\obj\Debug\net8.0\Blazor_S1.csproj.CoreCompileInputs.cache
 C:\Github\Blazor_S1\obj\Debug\net8.0\Blazor_S1.MvcApplicationPartsAssemblyInfo.cache
 C:\Github\Blazor_S1\obj\Debug\net8.0\Blazor_S1.sourcelink.json
+C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net8.0\Blazor_S1.csproj.AssemblyReference.cache
+C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net8.0\Blazor_S1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net8.0\Blazor_S1.AssemblyInfoInputs.cache
+C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net8.0\Blazor_S1.AssemblyInfo.cs
+C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net8.0\Blazor_S1.csproj.CoreCompileInputs.cache
+C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net8.0\Blazor_S1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net8.0\Blazor_S1.sourcelink.json

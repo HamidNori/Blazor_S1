@@ -4,8 +4,21 @@ namespace Blazor_S1.Services.Models
 {
     public class TodoItem
     {
-        public string? Title { get; set; }
-        public bool IsDone { get; set; } = false;
-        public bool JustAddded { get; set; } = true;
+        public int Id { get; set; }
+        public string Text { get; set; }
+        public bool IsCompleted { get; set; }
+        public DateTime CreatedAt { get; set; }
+
+        public TodoItem(string text)
+        {
+            Text = text;
+            IsCompleted = false;
+            CreatedAt = DateTime.Now;
+        }
+
+        public void Toggle()
+        {
+            IsCompleted = !IsCompleted;
+        }
     }
 }
