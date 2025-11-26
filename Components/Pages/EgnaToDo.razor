@@ -8,7 +8,6 @@
 
 <div class="swiper">
     <div class="swiper-wrapper">
-
         <div id="1" class="swiper-slide">
             <ul id="accordion">
                 @foreach (var day in TodoService.GetAllDays())
@@ -50,13 +49,22 @@
                 }
             </ul>
         </div>
+        <div id="slider-2" class="swiper-slide">
+            <div class="content-sida2">
+                <div class="title-sida2">
+                    <h1>ANPASSANDE LISTOR</h1>
+                </div>
 
-        <div id="2" class="swiper-slide">
-            Hej hur mår du
+                <div class="list-content">
+                    <ul>
+                        <li>+</li>
+                        <li>+</li>
+                        <li>+</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-
     </div>
-
 </div>
 
 @code

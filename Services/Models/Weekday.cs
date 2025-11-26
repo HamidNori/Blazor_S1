@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Blazor_S1.Services.Models
 {
-        public class WeekDay
+    public class WeekDay
     {
         public string Name { get; set; }
         public string Key { get; set; }
