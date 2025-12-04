@@ -510,5 +510,5 @@ C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\a
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\wrcke1l4u7-d4t2wvef7f.gz
 C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\26n4zlm5ss-v819st0mjs.gz
 C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\wrcke1l4u7-bnmico0qc9.gz
-C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\s2jq2yekuz-75nelfu7ei.gz
-C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\apd7yttlql-75nelfu7ei.gz
+C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\s2jq2yekuz-rk399dwqg5.gz
+C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\apd7yttlql-rk399dwqg5.gz
