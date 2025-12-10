@@ -9,3 +9,13 @@ window.initSwiper = () => {
         pagination: { el: '.swiper-pagination', clickable: true },
     });
 };
+
+
+const modal = document.getElementById("#modal");
+if (modal) {
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    };
+}

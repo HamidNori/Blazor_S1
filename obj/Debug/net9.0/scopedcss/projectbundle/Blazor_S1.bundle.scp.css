@@ -454,3 +454,29 @@
     border-radius: 1rem;
     border: 1px solid #282828;
 }
+
+.content-sida2 .list-content ul .popup-button[b-bn0ysh29z1]
+{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+    color: #282828;
+    border: 1px solid #282828;
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 2rem;
+    
+    border-radius: 1rem;
+    border: 1px solid #282828;
+}
+
+.content-sida2 .list-content ul .popup[b-bn0ysh29z1]
+{
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

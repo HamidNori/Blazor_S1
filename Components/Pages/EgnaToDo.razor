@@ -60,11 +60,11 @@
                 <div class="list-content">
                     <ul>
                         
-                        <button class="btn btn-primary" @onclick="ShowCreateDialog">+</button>
+                        <button class="popup-button" @onclick="ShowCreateDialog">+</button>
 
                         @if (showDialog)
                         {
-                            <div class="popup">
+                            <div class="popup" id="modal">
                                 <h4>Vilken typ av lista vill du skapa?</h4>
                                 <button class="btn btn-secondary" @onclick = "CreateShopping">Shoppinglista</button>
                                 <button class="btn btn-secondary" @onclick = "CreateWork">Arbetslista</button>
