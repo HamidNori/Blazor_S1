@@ -15,15 +15,6 @@ namespace Blazor_S1.Services.CustomTodo
             Items.Add(new ShoppingItem { Name = text });
         }
 
-        public void ToggleItem(ShoppingItem item)
-        {
-            item.IsChecked = !item.IsChecked;
-        }
-
-        public void RemoveItem(ShoppingItem item)
-        {
-            Items.Remove(item);
-        }
         public decimal GetTotalCost()
         {
             return Items.Sum(item => item.TotalPrice);

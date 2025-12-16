@@ -8,7 +8,6 @@ namespace Blazor_S1.Services.CustomTodo
     public abstract class AbstractCustomTodo
     {
         public string? Title { get; set; }
-        public Guid Id { get; set; } = Guid.NewGuid();
 
         public abstract string ListType { get; }
         public abstract void AddItem(string text);

@@ -356,7 +356,17 @@
   height: 100%;
 }
 
-#shopping-list li div[b-bn0ysh29z1]
+#shopping-list li strong[b-bn0ysh29z1]
+{
+  font-size:2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+
+
+#shopping-list li .Add-section-shopping[b-bn0ysh29z1]
 {
   display: flex;
   justify-content: space-evenly;
@@ -365,6 +375,8 @@
 
   width: 100%;
   height: auto;
+  margin-bottom: 2rem;
+  border-bottom: #282828 1px solid ;
   
 }
 
@@ -384,7 +396,6 @@
   cursor: pointer;
   font-size: 1.2rem;
   color: #282828;
-  margin: 1rem;
 }
 
 #shopping-list li ul[b-bn0ysh29z1]
@@ -452,6 +463,12 @@
   text-align: right;
 }
 
+#shopping-list li ul li .side-1 .Name[b-bn0ysh29z1]
+{
+  margin-left: 10px;
+  
+}
+
 
 #shopping-list li ul li div input[type="checkbox"][b-bn0ysh29z1]
 {
@@ -466,8 +483,71 @@
   box-sizing: border-box;
 }
 
+#shopping-list li.shopping-item[b-bn0ysh29z1] {
+  transition: opacity 150ms ease, color 150ms ease;
+}
+#shopping-list li.shopping-item.checked[b-bn0ysh29z1] {
+  opacity: 0.45;
+}
+#shopping-list li.shopping-item.checked .Name[b-bn0ysh29z1] {
+
+  color: #666;
+}
+#shopping-list li.shopping-item .Name[b-bn0ysh29z1] {
+  transition: color 150ms ease, text-decoration 150ms ease;
+}
+
+.Add-section-work[b-bn0ysh29z1] 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.Add-section-work select[b-bn0ysh29z1]
+{
+  font-size: 1.2rem;
+  padding: 5px;
+  border: none;
+}
+
+.Add-section-work input[type="date"][b-bn0ysh29z1]
+{
+  font-size: 1.2rem;
+  padding: 5px;
+  border: none;
+}
+
+.Add-section-work input[type="date"][b-bn0ysh29z1]::-webkit-datetime-edit
+{
+  display: none;
+}
+
+.work-task-list .work-task-item[b-bn0ysh29z1]
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work-task-list .work-task-item .side-1[b-bn0ysh29z1]
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%;
+  gap: 10px;
+}
 
 
 
+.completed[b-bn0ysh29z1] {
+  opacity: 0.5;
+}
 
+.overdue[b-bn0ysh29z1] {
+  font-weight: 800;
+  width: 10px;
 
+}

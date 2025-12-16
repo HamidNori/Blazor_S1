@@ -80,7 +80,7 @@
 
                                         @if (list is ShoppingList shopping)
                                         {
-                                            <div>
+                                            <div class="Add-section-shoppin">
                                                 <input type="text"
                                                     placeholder="Lägg till vara..."
                                                     @bind="newItemText" />
@@ -94,14 +94,14 @@
                                             <ul>
                                                 @foreach (var item in shopping.Items)
                                                 {
-                                                    <li>
+                                                    <li class="shopping-item @(item.IsChecked ? "checked" : "")">
                                                     <div class="side-1">
                                                         <input type="number"
                                                             min="1"
                                                             class="quantity"
                                                             @bind="item.Quantity"
-                                                            />
-                                                        @item.Name
+                                                            /> st
+                                                        <span class="Name">@item.Name</span>
                                                         <input type="number"
                                                             min="0"
                                                             class="price"
@@ -118,6 +118,54 @@
                                             </ul>
 
                                             <strong>Total Kostnad: @shopping.GetTotalCost() kr</strong>
+                                        }
+
+                                        @if (list is WorkTaskList workTask)
+                                        {
+                                            <div class="Add-section-work">
+                                                <input type="text"
+                                                    placeholder="Lägg till arbetsuppgift..."
+                                                    @bind="newItemText" />
+                                                <select @bind="newTaskPriority">
+                                                    @foreach(var p in Enum.GetValues<WorkPriority>())
+                                                    {
+                                                        <option value="@p">@p</option>
+                                                    }
+                                                </select>
+                                                <input type="date"
+                                                    @bind="newDueDate" />
+
+                                                <button class="btn btn-sm btn-primary"
+                                                        @onclick="() => AddWorkTaskItem(workTask)">
+                                                    Lägg till
+                                                </button>
+                                            </div>
+
+                                            <ul class="work-task-list">
+                                                @foreach (var task in workTask.Task)
+                                                {
+                                                    <li class="work-task-item 
+                                                        @(task.Done ? "completed" : "")
+                                                        @(task.IsOverDue ? "overdue" : "")">
+                                                        
+                                                        <div class="side-1">
+                                                        <input type="checkbox" @bind="task.Done" />
+                                                        <span class="Title">@task.Title</span>
+
+                                                        <span class="priority @task.Priority.ToString().ToLower()">
+                                                            @task.Priority
+                                                        </span>
+                                                        </div>
+
+                                                        @if(task.DueDate.HasValue)
+                                                        {
+                                                            <span class="due-date">
+                                                                Datum: @task.DueDate.Value.ToString("yyyy-MM-dd")
+                                                            </span>
+                                                        }
+                                                    </li>
+                                                }
+                                            </ul>
                                         }
                                     </li>
                                 }
@@ -136,7 +184,6 @@
 
     protected override void OnInitialized()
     {
-        // Initiera dictionary med rätt nycklar från TodoService
         foreach (var day in TodoService.GetAllDays())
         {
             newTodoTexts[day.Key] = "";
@@ -242,6 +289,27 @@
             shopping.AddItem(newItemText);
             newItemText = "";
         }
+    }
+
+
+    private WorkPriority newTaskPriority = WorkPriority.M;
+    private DateTime? newDueDate;
+    void AddWorkTaskItem(WorkTaskList workTask)
+    {
+        if (string.IsNullOrWhiteSpace(newItemText))
+            return;
+
+        workTask.Task.Add(new WorkTaskItem
+        {
+            Title = newItemText,
+            Priority = newTaskPriority,
+            DueDate = newDueDate
+        });
+
+        newItemText = "";
+        newDueDate = null;
+        newTaskPriority = WorkPriority.M; 
+        
     }
 
 }
