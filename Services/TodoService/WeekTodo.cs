@@ -7,7 +7,7 @@ using Blazor_S1.Services.Models;
 
 namespace Blazor_S1.Services.TodoService
 {
-    public class TodoService
+    public class TodoService : ITodoService
     {
         private List<WeekDay> _weekDays;
 
