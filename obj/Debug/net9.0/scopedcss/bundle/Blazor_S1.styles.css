@@ -377,11 +377,13 @@
 .swiper[b-bn0ysh29z1] {
     width: 100%;
     height: 100%;
+    overflow-y: hidden;
 }
 
 .swiper-slide[b-bn0ysh29z1] {
     width: 100%;
-    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
 }
 
 
@@ -448,7 +450,7 @@
     color: #282828;
     border: 1px solid #282828;
     padding: 10px;
-    height: 200px;
+    min-height: 200px;
     margin-bottom: 2rem;
     
     border-radius: 1rem;
@@ -475,8 +477,252 @@
 
 .content-sida2 .list-content ul .popup[b-bn0ysh29z1]
 {
-    background-color: #FFA500;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  gap: 10px;
+
+  height: 300px;  
+  width: 100%;
+  margin-bottom: 5rem;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+
+.content-sida2 .list-content ul .popup button[b-bn0ysh29z1]
+{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #282828;
+  width:100%;
+  height: 15rem;
+  border: 1px solid #282828;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+#shopping-list[b-bn0ysh29z1]
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+}
+
+#shopping-list li[b-bn0ysh29z1]
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  list-style: none;
+  font-size: 2rem;
+  color: #282828;
+  width: 100%;
+  height: 100%;
+}
+
+#shopping-list li strong[b-bn0ysh29z1]
+{
+  font-size:2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+
+
+#shopping-list li .Add-section-shopping[b-bn0ysh29z1]
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  border-bottom: #282828 1px solid ;
+  
+}
+
+#shopping-list li div input[type="text"][b-bn0ysh29z1]
+{
+  width: 70%;
+  font-size: 1.2rem;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+#shopping-list li div button[b-bn0ysh29z1]
+{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #282828;
+}
+
+#shopping-list li ul[b-bn0ysh29z1]
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+#shopping-list li ul li[b-bn0ysh29z1]
+{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  list-style: none;
+  min-height: 48px;
+  padding: 8px 0;
+  font-size: 1.2rem;
+  border: none;
+  gap: 0.75rem;
+}
+
+#shopping-list li ul li .side-1[b-bn0ysh29z1]
+{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 80%;
+}
+
+#shopping-list li ul li .side-2[b-bn0ysh29z1]
+{
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: flex-end;
+
+  width: 20%;
+}
+
+#shopping-list li ul li div .price[b-bn0ysh29z1]
+{
+  border: none;
+  width:40px;
+  display: flex;
+  margin-left: 10px;
+  text-align: right;
+}
+
+#shopping-list li ul li div .quantity[b-bn0ysh29z1]
+{
+  border: none;
+  width:40px;
+  display: flex;
+  margin-left: 10px;
+  text-align: right;
+}
+
+#shopping-list li ul li .side-1 .Name[b-bn0ysh29z1]
+{
+  margin-left: 10px;
+  
+}
+
+
+#shopping-list li ul li div input[type="checkbox"][b-bn0ysh29z1]
+{
+  right: 0;
+  height: 20px;
+  cursor: pointer;
+}
+
+#shopping-list li ul li input[type="number"][b-bn0ysh29z1],
+#shopping-list li ul li input[type="checkbox"][b-bn0ysh29z1] {
+  height: 28px;
+  box-sizing: border-box;
+}
+
+#shopping-list li.shopping-item[b-bn0ysh29z1] {
+  transition: opacity 150ms ease, color 150ms ease;
+}
+#shopping-list li.shopping-item.checked[b-bn0ysh29z1] {
+  opacity: 0.45;
+}
+#shopping-list li.shopping-item.checked .Name[b-bn0ysh29z1] {
+
+  color: #666;
+}
+#shopping-list li.shopping-item .Name[b-bn0ysh29z1] {
+  transition: color 150ms ease, text-decoration 150ms ease;
+}
+
+.Add-section-work[b-bn0ysh29z1] 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.Add-section-work select[b-bn0ysh29z1]
+{
+  font-size: 1.2rem;
+  padding: 5px;
+  border: none;
+}
+
+.Add-section-work input[type="date"][b-bn0ysh29z1]
+{
+  font-size: 1.2rem;
+  padding: 5px;
+  border: none;
+}
+
+.Add-section-work input[type="date"][b-bn0ysh29z1]::-webkit-datetime-edit
+{
+  display: none;
+}
+
+.work-task-list .work-task-item[b-bn0ysh29z1]
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work-task-list .work-task-item .side-1[b-bn0ysh29z1]
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%;
+  gap: 10px;
+}
+
+
+
+.completed[b-bn0ysh29z1] {
+  opacity: 0.5;
+}
+
+.overdue[b-bn0ysh29z1] {
+  font-weight: 800;
+  width: 10px;
+
 }

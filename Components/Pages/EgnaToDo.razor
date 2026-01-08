@@ -60,23 +60,115 @@
                 <div class="list-content">
                     <ul>
                         
-                        <button class="popup-button" @onclick="ShowCreateDialog">+</button>
+                        <button class="popup-button"  @onclick="ShowCreateDialog">+</button>
 
                         @if (showDialog)
                         {
-                            <div class="popup" id="modal">
+                            <div class="popup">
                                 <h4>Vilken typ av lista vill du skapa?</h4>
-                                <button class="btn btn-secondary" @onclick = "CreateShopping">Shoppinglista</button>
-                                <button class="btn btn-secondary" @onclick = "CreateWork">Arbetslista</button>
-                                <button class="btn btn-secondary" @onclick = "CreateWorkout">Träningslista</button>
+                                <button  @onclick = "CreateShopping">Shoppinglista</button>
+                                <button  @onclick = "CreateWork">Arbetslista</button>
+                                <button  @onclick = "CreateWorkout">Träningslista</button>
                             </div>
                         }
 
-                        <ul>
+                        <ul id="shopping-list">
                             @foreach (var list in customTodoLists)
-                            {
-                                <li>@list.Title (@list.ListType)</li>
-                            }
+                                {
+                                    <li>
+                                        <strong>@list.Title</strong>
+
+                                        @if (list is ShoppingList shopping)
+                                        {
+                                            <div class="Add-section-shoppin">
+                                                <input type="text"
+                                                    placeholder="Lägg till vara..."
+                                                    @bind="newItemText" />
+
+                                                <button class="btn btn-sm btn-primary"
+                                                        @onclick="() => AddShoppingItem(shopping)">
+                                                    Lägg till
+                                                </button>
+                                            </div>
+
+                                            <ul>
+                                                @foreach (var item in shopping.Items)
+                                                {
+                                                    <li class="shopping-item @(item.IsChecked ? "checked" : "")">
+                                                    <div class="side-1">
+                                                        <input type="number"
+                                                            min="1"
+                                                            class="quantity"
+                                                            @bind="item.Quantity"
+                                                            /> st
+                                                        <span class="Name">@item.Name</span>
+                                                        <input type="number"
+                                                            min="0"
+                                                            class="price"
+                                                            step="0.01"
+                                                            @bind="item.Price" />
+                                                            kr
+                                                    </div>
+                                                    <div class="side-2">
+                                                        <input type="checkbox"
+                                                            @bind="item.IsChecked" />
+                                                    </div>
+                                                    </li>
+                                                }
+                                            </ul>
+
+                                            <strong>Total Kostnad: @shopping.GetTotalCost() kr</strong>
+                                        }
+
+                                        @if (list is WorkTaskList workTask)
+                                        {
+                                            <div class="Add-section-work">
+                                                <input type="text"
+                                                    placeholder="Lägg till arbetsuppgift..."
+                                                    @bind="newItemText" />
+                                                <select @bind="newTaskPriority">
+                                                    @foreach(var p in Enum.GetValues<WorkPriority>())
+                                                    {
+                                                        <option value="@p">@p</option>
+                                                    }
+                                                </select>
+                                                <input type="date"
+                                                    @bind="newDueDate" />
+
+                                                <button class="btn btn-sm btn-primary"
+                                                        @onclick="() => AddWorkTaskItem(workTask)">
+                                                    Lägg till
+                                                </button>
+                                            </div>
+
+                                            <ul class="work-task-list">
+                                                @foreach (var task in workTask.Task)
+                                                {
+                                                    <li class="work-task-item 
+                                                        @(task.Done ? "completed" : "")
+                                                        @(task.IsOverDue ? "overdue" : "")">
+                                                        
+                                                        <div class="side-1">
+                                                        <input type="checkbox" @bind="task.Done" />
+                                                        <span class="Title">@task.Title</span>
+
+                                                        <span class="priority @task.Priority.ToString().ToLower()">
+                                                            @task.Priority
+                                                        </span>
+                                                        </div>
+
+                                                        @if(task.DueDate.HasValue)
+                                                        {
+                                                            <span class="due-date">
+                                                                Datum: @task.DueDate.Value.ToString("yyyy-MM-dd")
+                                                            </span>
+                                                        }
+                                                    </li>
+                                                }
+                                            </ul>
+                                        }
+                                    </li>
+                                }
                         </ul>
 
                     </ul>
@@ -92,7 +184,6 @@
 
     protected override void OnInitialized()
     {
-        // Initiera dictionary med rätt nycklar från TodoService
         foreach (var day in TodoService.GetAllDays())
         {
             newTodoTexts[day.Key] = "";
@@ -146,7 +237,7 @@
         return "";
     }
 
-    @code {
+@code {
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
@@ -175,7 +266,50 @@
     void CreateList(string type)
     {
         var list = CustomTodoFactory.Create(type);
+        
+        list.Title = type switch
+        {
+            "ShoppingList" => "Ny Shoppinglista",
+            "WorkTaskList" => "Ny Arbetslista",
+            "WorkoutList"  => "Ny Träningslista",
+            _              => "Ny Lista"
+        };
+
         customTodoLists.Add(list);
         showDialog = false;
     }
+
+
+    private string newItemText = "";
+
+    void AddShoppingItem(ShoppingList shopping)
+    {
+        if (!string.IsNullOrWhiteSpace(newItemText))
+        {
+            shopping.AddItem(newItemText);
+            newItemText = "";
+        }
+    }
+
+
+    private WorkPriority newTaskPriority = WorkPriority.M;
+    private DateTime? newDueDate;
+    void AddWorkTaskItem(WorkTaskList workTask)
+    {
+        if (string.IsNullOrWhiteSpace(newItemText))
+            return;
+
+        workTask.Task.Add(new WorkTaskItem
+        {
+            Title = newItemText,
+            Priority = newTaskPriority,
+            DueDate = newDueDate
+        });
+
+        newItemText = "";
+        newDueDate = null;
+        newTaskPriority = WorkPriority.M; 
+        
+    }
+
 }
