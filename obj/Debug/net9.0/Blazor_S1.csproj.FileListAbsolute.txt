@@ -506,10 +506,11 @@ C:\Github\Blazor_S1\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Exte
 C:\Github\Blazor_S1\obj\Debug\net9.0\Blazor_S1.csproj.Up2Date
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\26n4zlm5ss-v819st0mjs.gz
 C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\26n4zlm5ss-v819st0mjs.gz
-C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\wrcke1l4u7-bnmico0qc9.gz
-C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\s2jq2yekuz-rk399dwqg5.gz
-C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\apd7yttlql-rk399dwqg5.gz
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\wrcke1l4u7-z59uceeker.gz
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\sgqpo82v4t-93z37ixy0p.gz
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\s2jq2yekuz-9x76s9y9yr.gz
 C:\Users\hamno\OneDrive\Documents\GitHub\Blazor_S1\obj\Debug\net9.0\compressed\apd7yttlql-9x76s9y9yr.gz
+C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\wrcke1l4u7-z59uceeker.gz
+C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\sgqpo82v4t-93z37ixy0p.gz
+C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\s2jq2yekuz-9x76s9y9yr.gz
+C:\Github\Blazor_S1\obj\Debug\net9.0\compressed\apd7yttlql-9x76s9y9yr.gz
